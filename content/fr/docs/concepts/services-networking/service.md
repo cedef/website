@@ -312,7 +312,7 @@ Si vous utilisez uniquement DNS pour découvrir l'IP du cluster pour un service,
 
 ### DNS
 
-Vous pouvez (et devrait presque toujours) configurer un service DNS pour votre cluster Kubernetes à l'aide d'un [add-on](/docs/concepts/cluster-administration/addons/).
+Vous pouvez (et devriez presque toujours) configurer un service DNS pour votre cluster Kubernetes à l'aide d'un [add-on](/docs/concepts/cluster-administration/addons/).
 
 Un serveur DNS prenant en charge les clusters, tel que CoreDNS, surveille l'API Kubernetes pour les nouveaux services et crée un ensemble d'enregistrements DNS pour chacun.
 Si le DNS a été activé dans votre cluster, tous les pods devraient automatiquement être en mesure de résoudre les services par leur nom DNS.
